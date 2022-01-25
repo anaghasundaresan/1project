@@ -1,0 +1,395 @@
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin:0;}
+    body{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background: white;
+        color:pink;
+        line-height: 1.6;
+    }
+    .content h2,p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #left{
+        margin-right:80rem;
+    }
+    #right{
+        margin-left:80rem;
+    }
+   
+    
+    .first {
+         
+            align-items: left;
+            justify-content: left;
+            text-align: left;
+           margin: 0px;
+            padding:  0px;
+        
+        
+    }
+    .second {
+        
+            display: grid;
+            flex-direction: column;
+            align-items: right;
+            justify-content: right;
+            text-align: left;
+            
+            padding:  0 20px;
+        
+        
+    }
+    .third {
+        
+            display: grid;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            
+            padding:  0 20px;
+        
+        
+    }
+    .new{
+        text-align: center;
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        line-height: 1.5;
+        
+    }
+    .new h2{
+       
+        font-weight: bold;
+    }
+    #about{
+        padding:2rem;
+        margin-left:5rem;
+        margin-right: 5rem;
+        margin-top: 2rem;
+    }
+      
+    ul{list-style:none;}
+    a{
+        color:orange;
+        text-decoration: none;
+    }
+    h1,h2{font-weight: 300;
+    line-height: 1.2;}
+    p{margin: 10px 0;}
+    img{width:100%;}
+    #navbar{display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background-color:gray ;
+    color:black;
+    opacity: 0.8;
+    width: 100%;
+    height: 70pxx;
+    position: fixed;
+    top:0px;
+    padding: 0 30px;}
+    .navbar a{color:white;
+        padding:10px 20px;
+    margin: 0 5PX; }
+    #navbar ul li a:hover,
+               #navbar ul li a.current{ background: gray;
+                color:blue;}
+    #navbar ul{display:flex}
+    .navbar logo{font-weight: 400;}
+    .hero{
+        background:url('edvin-johansson-rlwE8f8anOc-unsplash.jpg')no-repeat center center/cover;
+    height:100vh;
+    position: relative;
+    color:#fff;
+    }
+    .hero1{
+        background:url('manuel-moreno-DGa0LQ0yDPc-unsplash.jpg')no-repeat center center/cover;
+    height:100vh;
+    position: relative;
+    color:#fff;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+        padding:  0 20px;
+    
+    }
+    .content1{
+        display: grid;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+        padding:  0 20px;
+    
+    }
+   
+    .content h1{
+        font-size: 55px;
+    }
+    .content p{
+        font-size: 23px;
+        max-width: 600px;
+        margin: 20px 0 30px;
+    }
+    .content::before{
+        content: '';
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background: rgba(0,0,0, 0.6);
+    }
+    .hero *{
+        z-index:10;
+    }
+    .hero1::before{
+        content: '';
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background: rgba(0,0,0, 0.6);
+    }
+    .hero1 *{
+        z-index: 10;
+    }
+   
+    .icons{
+        padding: 30px;
+    }
+    .icon h3{
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .icons i{
+        background-color:orange;
+        color:white;
+        padding:2rem;
+        border-radius: 100%;
+        margin-bottom:15px;
+    }
+    .except i {
+        background-color:white;
+        color:orange;
+        padding:2rem;
+        border-radius: 100%;
+        margin-bottom:15px;
+        border:1px gray solid;
+
+    }
+    .except2 i {
+        background-color:white;
+        color:orange;
+        padding:2rem;
+        border-radius: 100%;
+        margin-bottom:15px;
+    
+
+    }
+    .right{
+        justify-content: center;
+        padding:50px;
+        margin-left: 500px;
+       
+    }
+    #cases{
+        color:black;
+        background-color: white;
+    }
+    form {
+        display:grid;
+        grid-template-columns: 200px 200px 200px;
+       grid-gap: 1rem;
+        
+       margin-bottom: 20px;
+        justify-content: space-evenly;
+    
+     
+
+    }
+    
+    .formgroup textarea{
+        
+        width: 850px;
+          
+    margin: 1.2rem;
+     height:200px;
+         
+
+    }
+    .formgroup input{
+        width: 250px;
+        height: 50px;
+         border:1px #fff solid; 
+         margin: 1.2rem;
+    
+        
+    }
+
+    .formgroup button{
+        margin-left: 23rem;
+        margin-top: 1rem;
+        display: grid;
+        text-align: center;
+        justify-content: space-evenly;
+        
+    }
+    #contact-form h3,
+        #contact-form p{
+        text-align: center;
+    }
+   
+    
+    
+        #contact-form textarea{
+            height:200px;
+           
+            }
+            #contact-form input:focus,#contact-form textarea:focus{
+                outline:none ;
+                border-color: #f7c08a;
+            }
+            #contact.text-fields{
+                display: grid;
+                grid-template-areas: 'name email number'
+                                            'message';
+                grid-gap:1.2rem;
+                margin-bottom: 1.2rem;
+            }
+            .name input{
+                grid-area: name;
+            }
+            .email input{
+                grid-area: email;
+            }
+            .number input{
+                grid-area: number;
+            }
+            .message input{
+                grid-area: message;
+                height:100px;
+            }
+
+            .text-input{
+                padding: 0.5rem,1rem;
+            }
+            button[type="submit"]{
+                width:50%;
+            }
+    
+    .row1 img:hover{ 
+        opacity:0.9;
+    }
+    #quote{
+     display:block;
+    align-items:center;
+    justify-content:center;
+    margin: auto;
+    
+    overflow: auto;
+    padding: 20px 20px;
+   
+   
+    
+   
+
+    }
+    hr{
+        margin-top: 1rem;
+        width:25%;
+    text-align:center;
+    margin-left: 350px;
+    border: 1px solid orange;
+}
+.heading2{
+    margin-top: 1rem;
+    margin-bottom:1rem;
+    width:25%;
+text-align:center;
+margin-left: 400px;
+border: 1px solid orange;
+}
+.heading{
+    margin-top: 1rem;
+    width:25%;
+text-align:center;
+margin-left: 25px;
+border: 1px solid orange;
+
+}
+    .py{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: block;
+        text-align: center;
+    }
+    #quote p{
+        text-align: center;
+    }
+    #main-footer{
+        height: 10rem;
+    }
+    .footer-content{
+        display:grid;
+        justify-content:center;
+        height:5rem;
+        align-items:center;
+
+    }
+    .footer-content1{
+        display:block;
+        justify-content:center;
+        height:5rem;
+        align-items:center;
+
+    }
+    .social .fab{
+        margin-right: 1rem;
+        margin-left: 1rem;
+        justify-content: space-between;
+        align-items: center;
+        height: 20px;
+        width: 20px;
+        line-height: 20px;
+        text-align:center;
+        padding: 0.5rem;
+    }
+    /*responsive*/
+    @media(max-width:768px){
+        .navbar{
+            flex-direction: column;
+            height:120px;
+            padding:20px;
+        }
+        .navbar a{
+            padding:10px 10px;
+            margin: 0 3px;
+        }
+        .flex-items{
+            flex-direction: column;
+        }
+         #contact-form {
+            margin: 20px;
+             padding:10px 10px;
+         }
+       
+        .row1.columnn{
+            flex:100%;
+            max-width:100%;
+        }
+       
+    }
+
+    
+
+    
