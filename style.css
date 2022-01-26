@@ -71,7 +71,7 @@
         margin-top: 2rem;
     }
       
-    ul{list-style:none;}
+    ul{list-style-type: none;}
     a{
         color:orange;
         text-decoration: none;
@@ -378,16 +378,32 @@ border: 1px solid orange;
         .flex-items{
             flex-direction: column;
         }
-         #contact-form {
-            margin: 20px;
-             padding:10px 10px;
-         }
-       
-        .row1.columnn{
-            flex:100%;
-            max-width:100%;
+        .column {
+        
+    
+            display:block;
         }
-       
+        
+       form{
+           display:block;
+        
+       }
+       .formgroup textarea{
+           width:400px;
+       }
+       .{
+           flex:100%;
+           max-width:100%;
+       }
+          
+       .formgroup button{
+           
+           margin-left: 9rem;
+       }
+      hr {
+        margin-left: 150px;
+      }
+        
     }
 
     
