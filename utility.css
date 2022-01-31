@@ -149,13 +149,14 @@ font-weight: 100;
     margin:10px 0;
 }
 .column-1 img{
-    height:100%;
-    width:55%;
+  
+    width:60%;
     padding:0 50px;
     margin-left:15rem;
     margin-right:15rem;
-    margin-top: 0rem;
-    margin-bottom: 0rem;
+    margin-top: 0px;
+    margin-bottom:0px;
+    padding-bottom:10px;
 }
 .section-header{
     padding:2rem;
@@ -169,6 +170,7 @@ align-items: center;
 justify-content: center;
 text-align: center;}
 .section-header h2{
+    border-bottom:2px solid orange;
     font-size: 300;
     font-weight: bold;
     margin: 20px 0;
@@ -190,6 +192,8 @@ text-align: center;}
         margin-left:5rem;
         margin-right: 5rem;
         margin-top: 2rem;
+        justify-content: center;
+        align-items: center;
  }  
  .row1 .columnn{
     
